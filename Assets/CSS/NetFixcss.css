@@ -1,0 +1,92 @@
+body{
+    background: url('../Images/placeholder.jpg') no-repeat center center fixed;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+  }
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+#title{
+    margin:3%;
+    text-align:center;
+    text-shadow: -2px 0 #8ec3eb, 0 2px #8ec3eb, 2px 0 #8ec3eb, 0 -2px #8ec3eb;
+    color:white;
+    font-weight: bold;
+    text-decoration:underline;
+    font-size:60px;
+    line-height:80px;
+    font-family: 'Space Mono', monospace;
+}
+
+#about{
+    opacity: .9;
+    color:whitesmoke;
+    border: solid red 3px;
+    padding:1%;
+    border-radius:15px;
+}
+
+#whatsNew_whatsLeaving{
+    padding:4%;
+}
+
+#resultsRow{
+    margin-top: 3%;
+}
+
+#tableBody{
+    background:#8ec3eb;
+}
+
+#tableHeader{
+    font-size:2em;
+    font-weight:bold;
+    background: #6c757d;
+    color:white;
+}
+
+th{
+    font-size: 1.5em;
+    font-weight:bold;
+}
+
+.card{
+    width: 10rem;
+    float:left;
+}
+
+.card-body{
+    background: #8ec3eb;
+    color:black;
+}
+
+#titleContent, #titleIMDBRating, #titleIMDBPopularity{
+    font-size: 1em;
+    padding-top:5%;
+}
+
+#titlePoster{
+    width:10em;
+
+}
+
+#criteriaContainer{
+    background:#7e9a9a;
+    border: solid #8ec3eb 3px;
+    height:150px;
+    border-radius:15px;
+    padding:1%;
+}
