@@ -8,7 +8,7 @@
 
 * Home Page
 
-![Home Page](/img/facts-grab.png)
+![Home Page](facts-grab.png)
 
 ## Description
 This is a JS Web Application that showcases rich table features.
