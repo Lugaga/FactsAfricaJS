@@ -1,0 +1,21 @@
+body{
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: large;
+}
+#dropz:hover {
+    background-color: #28a745;
+    border-radius: 25px;
+  }
+#navz:hover {
+    background-color: #ffffff;
+    color: #28a745;
+    border-radius: 25px;
+  }
+#navbarDropdownMenuLink-555:hover {
+    background-color: #ffffff;
+    color: #28a745;
+    border-radius: 25px;
+  }
+
+.navbar-nav > li > a {padding-top:1px !important; padding-bottom:1px !important;}
+.navbar {min-height:3px !important}
